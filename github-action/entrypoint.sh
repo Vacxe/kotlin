@@ -10,7 +10,7 @@ args=$4
 echo "Danger JS version:"
 danger --version
 echo "Danger Kotlin version:"
-danger-koltin --version
+danger-kotlin --version
 
 if [ -f "$dangerFile"]; then
   danger-kotlin $runMode --dangerfile="$dangerFile" --id="$jobId" $args
