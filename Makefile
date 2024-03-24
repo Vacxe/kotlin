@@ -6,6 +6,7 @@ BUILD_PATH = danger-kotlin/build/bin/runner/releaseExecutable/$(TOOL_NAME).kexe
 LIB_INSTALL_PATH = $(PREFIX)/lib/danger
 LIB_FLAT_DIR = $(LIB_INSTALL_PATH)/libs
 
+
 install: build
 	mkdir -p $(PREFIX)/bin
 	mkdir -p $(LIB_INSTALL_PATH)
