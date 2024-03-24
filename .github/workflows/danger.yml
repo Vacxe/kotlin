@@ -9,8 +9,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Danger
-        uses: danger/kotlin@master
-        with:
-          args: "--id DangerKotlinAction"
+        uses: vacxe/kotlin@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
